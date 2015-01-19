@@ -1,0 +1,110 @@
+html, body {
+    overflow-x: hidden;
+}
+#rparticle .rumbleheadlineimage {
+    float: left;
+    width: 50%;
+    margin: 0 15px 10px 0;
+}
+#rparticle .rumbleheadlineimage img {
+    display: block;
+    max-width: 654px;
+    width: 100%
+}
+#rparticle {
+    padding: 20px 20px 50px 20px;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+}
+#rparticle .toutPlace {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+    clear: both;
+}
+#rparticle .toutHint {
+    padding: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    background: #ffee99;
+    color: maroon;
+    margin: 0 0 10px 0;
+    -webkit-box-shadow: 0 0 5px 1px orange;
+    box-shadow: 0 0 5px 1px orange;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin: 10px;
+}
+#rparticle img {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    margin: 0 15px 10px 5px;
+    padding-top: 20px;
+}
+@media only screen and (max-device-width: 480px) {
+    #rparticle .rumbleheadlineimage {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    #rparticle .toutPlace {
+        height: 300px;
+    }
+    #rparticle img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px 0 10px 0;
+        clear: both;
+    }
+}
+#rparticle .toutMrg {
+    height: 100%;
+    margin: 0 20px 0 20px;
+    overflow: hidden;
+}
+#rparticle a {
+    text-decoration: none;
+    overflow: hidden;
+}
+#rparticle .rumbletitle1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+#rparticle .rumbletitle3, #rparticle .rumbletitle2 {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #333;
+}
+#rparticle .imgLine {
+    padding: 0px;
+}
+#rparticle .rumbletitle3 {
+    color: #333;
+    margin: 5px 0 5px 0;
+}
+#rparticle p {
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;
+    line-height: 24px;
+    font-weight: normal;
+}
+#rparticle iframe {
+    border: 0
+}
